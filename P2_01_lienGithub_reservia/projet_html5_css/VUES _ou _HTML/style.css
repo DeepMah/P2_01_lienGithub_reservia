@@ -1,0 +1,78 @@
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: solid black;
+}
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.logo 
+{
+    width: 110px;
+    height: 70px;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+nav ul
+{
+    list-style-type: none;        /*enlever les points*/
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 90px;
+    padding-bottom: 1px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #0065FC;
+    padding-bottom: 80px;
+    text-decoration:#0065FC;
+}
+
+#rechercher
+{
+    background-image: url('/Users/mahmoud_OC/openclassrooms/projets_formation/projet2/projet2_reservia/projet_html5_css/images/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg'); background-position:left; 
+    background-size: 30px 30px ;
+    background-repeat: no-repeat; 
+    padding-left: 40px;
+}
+.filtres
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+}
+
+.grid-container
+{
+display: grid;
+grid-template-columns: auto auto auto;
+}
+
+.grid-item
+{
+width: 20px;
+height: 200px;
+margin: 5px;
+}
+
+
+
+.container
+{
+display: flex;
+}
+
+
+
