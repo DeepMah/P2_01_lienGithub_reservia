@@ -1,0 +1,113 @@
+@media screen and (max-width: 1000px) {
+    .nav {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .header {
+        display: flex;
+        flex-direction:column-reverse;
+        align-items:flex-start;
+        justify-content: space-between;
+    }
+    .logo {
+       margin-left:0px;
+    }
+    .filtres {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        height: auto;
+        width:100% ;
+    }
+    .contourfiltre {
+        width:auto;
+        margin:1%;
+    }
+    /***** Bloc hébergemment*/
+    .hebergement {
+        display: flex;
+        flex-direction: column;
+        width: 99%;
+        margin: 1%;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 99%;
+        background-color: #F2F2F2;
+        border-radius: 10px;
+        margin: 1%;
+    }
+    .box {
+        width:94.5%;
+        height:25%;
+        margin: 1.5%;
+        padding: 1.5%;
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 0 0 16px #0000002e;
+    }
+    /***** Les plus populaires*/
+    .plus-populaire {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width:99%;
+        height:auto;
+        background-color: #F2F2F2;
+        border-radius: 10px;
+        margin: 1%;
+    }
+    .box2 {
+        align-items: center;
+        width: 98%;
+        height: 25%;
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 0 0 16px #0808082e;
+        margin: 1%;
+    }
+    .box2-fig {
+        display: flex;
+        flex-direction: row;
+        height:98%;
+        width: 98%;
+        margin: 1%;
+    }
+    .grid-item2 {
+        width: 40%;
+        height:98%;
+        border-radius: 20px 0 0 20px;
+        margin: 1%;
+        padding: 1%;
+    }
+    /*** Activités */
+    .activites-a-marseille {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 95%;
+        margin: 1%;
+    }
+    .activite {
+        width: 99%;
+        height: 40%;
+        margin: 1%;
+        border-radius: 30px;
+        box-shadow: 0 0 16px #0808082e;
+        text-align:center;
+    }
+    /** Footer */
+    .footer {
+        display: flex;
+        flex-direction: column;
+        width: 98%;
+        background-color: #F2F2F2;
+        margin: 2%;
+        justify-items:center;
+        align-items:center;
+    }
+}
